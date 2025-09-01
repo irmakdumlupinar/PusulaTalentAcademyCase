@@ -38,7 +38,6 @@ public class MaxIncreasingSubArray
             }
         }
 
-        // son alt diziyi kontrol et
         if (currentSum > bestSum)
             best = current;
 
